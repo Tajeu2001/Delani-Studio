@@ -1,0 +1,63 @@
+/*.welcome {
+  background-image: url('/images/h_img.jpg');
+  text-align: center;
+  height: 800px;
+  color: white;
+  font-size: 40px;
+  padding:200px;
+
+}
+
+
+#mouse-click {
+  margin-top: 300px;
+}
+
+.about-us{
+  text-align: center;
+
+}
+
+.services {
+  background-image: url("/images/s_image.jpg");
+  text-align: center;
+  height: 500px;
+  color: white;
+}
+
+.contact {
+  background-image: url("/images/c_image.jpg");
+  text-align: center;
+  color:white;
+}
+
+input {
+  width:30%;
+  padding: 5px;
+  background-color: transparent;
+  color: white;
+
+}
+
+.message > input {
+   width:60%;
+   height: 300px;
+   margin:5px;
+   margin-bottom: 10px;
+   
+}
+
+.what-we-do {
+
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.socials {
+  text-align: center;
+  padding: 50px;
+}
+*/
+
