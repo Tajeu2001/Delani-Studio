@@ -39,7 +39,7 @@ input {
 
 }
 
-/*.message > input {
+.message > input {
    width:60%;
    height: 300px;
    margin:5px;
@@ -47,7 +47,7 @@ input {
    
 }
 
-.what-we-do {
+/*.what-we-do {
 
 }
 
