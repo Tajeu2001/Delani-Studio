@@ -25,13 +25,13 @@
   color: white;
 }
 
-/*.contact {
+.contact {
   background-image: url("/images/c_image.jpg");
   text-align: center;
   color:white;
 }
 
-input {
+/*input {
   width:30%;
   padding: 5px;
   background-color: transparent;
