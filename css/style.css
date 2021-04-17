@@ -31,7 +31,7 @@
   color:white;
 }
 
-/*input {
+input {
   width:30%;
   padding: 5px;
   background-color: transparent;
@@ -39,7 +39,7 @@
 
 }
 
-.message > input {
+/*.message > input {
    width:60%;
    height: 300px;
    margin:5px;
