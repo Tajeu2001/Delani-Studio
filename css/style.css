@@ -15,6 +15,11 @@
   font-size: 40px;
 }
 
+h1 {
+  font-family: 'Satisfy', cursive;
+  text-decoration:double underline;
+}
+
 
 #mouse-click {
   padding: 100px;
@@ -24,7 +29,7 @@
 .about-us{
   text-align: center;
   font-family: 'Karantina', cursive;
-  font-size: 25px;
+  font-size: 35px;
   padding: 30px;
 }
 
@@ -36,7 +41,7 @@
   color: white;
   padding-top: 100px;
   font-family: 'Karantina', cursive;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .contact {
@@ -73,6 +78,7 @@ input {
   text-align: center;
   padding: 70px;
   font-family: 'Karantina', cursive;
+  font-size: 30px;
 }
 
 .what-we-do >  .header {
@@ -118,13 +124,11 @@ h2 {
   font-family: 'Karantina', cursive;
 }
 
-
-
 .socials {
   text-align: center;
   padding: 50px;
   font-family: 'Karantina', cursive;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 
