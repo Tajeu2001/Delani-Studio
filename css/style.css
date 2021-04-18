@@ -1,34 +1,52 @@
 .welcome {
   background-image: url('/images/h_img.jpg');
+  background-size: cover;
   text-align: center;
   height: 800px;
   color: white;
-  font-size: 40px;
   padding:200px;
+  font-family: 'Karantina', cursive;
+}
 
+#welcome {
+  font-size: 80px;
+}
+ #p1 {
+  font-size: 40px;
 }
 
 
 #mouse-click {
-  margin-top: 300px;
+  padding: 100px;
+  animation:bounce 2s infinite;
 }
 
 .about-us{
   text-align: center;
-
+  font-family: 'Karantina', cursive;
+  font-size: 25px;
+  padding: 30px;
 }
 
 .services {
   background-image: url("/images/s_image.jpg");
-  text-align: center;
+  background-size: cover;
+  text-align: center ;
   height: 500px;
   color: white;
+  padding-top: 100px;
+  font-family: 'Karantina', cursive;
+  font-size: 25px;
 }
 
 .contact {
   background-image: url("/images/c_image.jpg");
   text-align: center;
   color:white;
+  background-position: cover;
+  background-position: center center;
+  margin-top: 60px;
+  padding: 40px;
 }
 
 input {
@@ -39,25 +57,74 @@ input {
 
 }
 
-.message > input {
+.message > #message{
    width:60%;
    height: 300px;
    margin:5px;
    margin-bottom: 10px;
-   
+   background-color: transparent;
 }
 
-/*.what-we-do {
-
+.form > ::-webkit-input-placeholder {
+  color: white;
 }
 
-*/.portfolio {
+.what-we-do {
   text-align: center;
+  padding: 70px;
+  font-family: 'Karantina', cursive;
 }
+
+.what-we-do >  .header {
+  padding-top: 30px;
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.portfolio {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#portfolio{
+  padding-left: 40%;
+}
+
+.col-md-3 >img {
+  max-width: 100%;
+}
+
+/*#row2 {
+  margin-top: 30px;
+}
+
+.overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7, .overlay8 {
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background-color: white;
+  opacity:0.7;
+  font-size: 40px;
+  font-family: 'Karantina', cursive;
+}
+
+
 
 .socials {
   text-align: center;
   padding: 50px;
+  font-family: 'Karantina', cursive;
 }
+
+
 
 
