@@ -31,7 +31,7 @@ $(document).ready(function(){
 });
 
 
-/*$(document).ready(function(){
+$(document).ready(function(){
   $("#image1").mouseover(function(){
     $(".overlay1").show();
   }).mouseout(function(){
@@ -83,7 +83,7 @@ $(document).ready(function(){
 });
 
 
-$(".form").submit(function(event){
+/*$(".form").submit(function(event){
   let name=$("#name").val();
   let email=$("#email").val();
   let textArea=$("#message").val();
