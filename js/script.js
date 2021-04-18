@@ -1,9 +1,16 @@
 $(document).ready(function(){
+  $(".design-img").show();
+  $(".design-paragraph").hide();
+  $(".dev-image").show();
+  $(".dev-paragraph").hide();
+  $(".product-img").show();
+  $(".product-paragraph").hide();
+
   $(".design-img").click(function(){
     $(".design-paragraph").show();
     $(".design-img").hide();
   });
-
+ 
   $(".design-paragraph").click(function(){
     $(".design-img").show();
     $(".design-paragraph").hide();
@@ -32,16 +39,18 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#image1").mouseover(function(){
-    $(".overlay1").show();
-  }).mouseout(function(){
+  $(".overlay1 , .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7, .overlay8").hide();
+  $("#image1").mouseout(function(){
     $(".overlay1").hide();
   });
+  $("#image1").mouseover(function(){
+    $(".overlay1").show();
+  });
 
-  $("#image2").mouseover(function(){
-    $(".overlay2").show();
-  }).mouseout(function(){
+  $("#image2").mouseout(function(){
     $(".overlay2").hide();
+  }).mouseover(function(){
+    $(".overlay2").show();
   });
 
   $("#image3").mouseover(function(){
@@ -81,17 +90,21 @@ $(document).ready(function(){
   });
 
 });
+$(document).ready(function(){
+  $("div.alert").hide();
+  $(".form").submit(function(event){
+  
 
-
-/*$(".form").submit(function(event){
   let name=$("#name").val();
   let email=$("#email").val();
-  let textArea=$("#message").val();
+  let message=$("#message").val();
 
   $("#name").text(name);
   $("#email").text(email);
-  $("#message").text(textArea);
+  $("#message").text(message);
    
-  var alert="Thanks";
-  $(alert).show();
-})
+  $("div.alert").show();
+  event.preventDefault();
+  });
+
+});
