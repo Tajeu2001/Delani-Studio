@@ -8,66 +8,135 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap" rel="stylesheet">
   <title>Delani Studio</title>
 </head>
 <body>
   <div class="welcome">
     <div class="container">
     <img src="images/logo.png">
-    <p>WELCOME</p>
-    <p>TO DELANI STUDIO</p>
+    <p id="welcome">WELCOME</p>
+    <p id="welcome">TO DELANI STUDIO</p>
+    <p id="p1">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
     <img id="mouse-click" src="images/mouse_click.png">
     </div>
   </div>
   <div class="about-us">
     <div class="container">
-    <h1>ABOUT US</h1>
-    <p></p>
+    <!--<h1>ABOUT US</h1>
+    <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software development process are intergrated , interactive and agile.</p>
+    <p>Our approach unifies design, development and product managent to create exceptional products.</p>
+    <p>We start each project by understanding your business goals, the users needs and the product requirements.</p>
+    <p>we help translate them into active and elegant solutions.</p>
     </div>
   </div>
   <div class="services">
     <div class="container">
     <h1>SERVICES</h1>
-    <p></p>
+    <p>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.</p>
+    <p>The outcome of the scoping session a proposal or high-level statement of work.</p>
+    <p>based on your requirements, we can provide a complete offering or just the piece you need.</p>
     </div>
   </div>
-  <div class="what-we-do">
-    <div class="container">
-    <h1>WHAT WE DO</h1>
+  <div class="container">
+    <div class="what-we-do">
+    <h1 class="header">WHAT WE DO</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="design-img">
+          <img src="images/design_icon.png">
+          <h2>DESIGN</h2>
+        </div>
+        <div class="design-paragraph">
+          <h2>DESIGN</h2>
+          <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+          <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="dev-image">
+          <img src="images/dev_icon.png">
+          <h2>DEVELOPMENT</h2>
+        </div>
+        <div class="dev-paragraph">
+          <h2>DEVELOPMENT</h2>
+          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+          <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-img">
+          <img src="images/product_icon.png">
+          <h2>PRODUCT MANAGEMENT</h2>
+        </div>
+        <div class="product-paragraph">
+          <h2>PRODUCT MANAGEMENT</h2>
+          <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+          <p>This iterative process allows for changes as business requirements evolve.</p>
+        </div>
+      </div>  
     </div>
   </div>
+  <div class="container">
   <div class="portfolio">
-    <div class="container">
-    <h1>PORTFOLIO</h1>
-    <div class="line1">
-    <img src="images/work4.jpg">
-    <img src="images/work3.jpg">
-    <img src="images/work2.jpg">
-    <img src="images/work1.jpg">
+    <h1 id="portfolio">PORTFOLIO</h1>
+    <div class=row>
+      <div id="image1" class="col-md-3">
+        <img src="images/work4.jpg">
+        <p class="overlay1">Black</p>
+      </div>  
+      <div id="image2" class="col-md-3">
+        <img src="images/work3.jpg">
+        <p class="overlay2">Mighty Ontario</p>
+      </div>
+      <div id="image3" class="col-md-3">
+        <img src="images/work2.jpg">
+        <p class="overlay3">Orange Pyramids</p>
+      </div>
+      <div id="image4" class="col-md-3">
+        <img src="images/work1.jpg">
+        <p class="overlay4">Jim Carry</p>
+      </div>  
     </div>
-    <div class="line2">
-    <img src="images/work5.jpg">
-    <img src="images/work6.jpg">
-    <img src="images/work7.jpg">
-    <img src="images/work8.jpg">
+    <div id="row2" class="row">
+      <div id="image5" class="col-md-3">
+        <img src="images/work5.jpg">
+        <p class="overlay5">Have a good day</p>
+      </div>  
+      <div id="image6" class="col-md-3">
+        <img src="images/work6.jpg">
+        <p class="overlay6">Calculator</p>
+      </div>  
+      <div id="image7" class="col-md-3">
+        <img src="images/work7.jpg">
+        <p class="overlay7">Burned</p>
+      </div>  
+      <div id="image8" class="col-md-3">
+        <img src="images/work8.jpg">
+        <p class="overlay8">Giraffe restaurant</p>
+      </div>  
     </div>
-    </div>
+  </div>
   </div>
   <div class="contact">
     <div class="container">
     <h1>CONTACT US</h1>
-    <input type="text" placeholder="name">
-    <input type="text" placeholder="Email">
-    <div class="message">
-      <input type="text" placeholder="write message...">
-    </div>
-    <button>submit</button>
+    <form class="form" method="post">
+      <input id="name" type="text" placeholder="name">
+      <input id="email" type="text" placeholder="Email">
+      <div class="message">
+        <input id="message" type="text" placeholder="your message here...">
+      </div>
+      <button>submit</button>
+    </form>
     </div>
   </div>
   <div class="socials">
     <div class="container">
     <img src="images/twitter.png"><img src="images/dribble.png"><img src="images/facebook.png"><img src="images/g_plus.png"><img src="images/skype.png"><img src="images/behance.png"><img src="images/pinterest.png"><img src="images/flickr.png">
-    </div>
+    <p>Delani studio</p> 
+    <p>2021</p> 
+  </div>
   </div>
   
 </body>
