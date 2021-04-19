@@ -1,5 +1,5 @@
 .welcome {
-  background-image: url('/images/h_img.jpg');
+  background-image: url('../images/h_img..jpg');
   background-size: cover;
   text-align: center;
   height: 800px;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .services {
-  background-image: url("/images/s_image.jpg");
+  background-image: url("../images/s_image..jpg");
   background-size: cover;
   text-align: center ;
   height: 500px;
@@ -45,7 +45,7 @@ h1 {
 }
 
 .contact {
-  background-image: url("/images/c_image.jpg");
+  background-image: url("../images/c_image..jpg");
   text-align: center;
   color:white;
   background-position: cover;
